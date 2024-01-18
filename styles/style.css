@@ -162,3 +162,77 @@ header .column span {
     text-align: center;
 
 }
+
+@media only screen and (max-width: 800px) {
+    .container {
+        transform: rotate(90deg);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        width: auto;
+        margin: auto;
+        transform: rotate(90deg);
+    }
+
+    .piano-keys .white {
+        width: 50px;
+        height: 220px;
+    }
+    
+    .short-keys li {
+        width: 47px;
+        height: 47px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: auto;
+        margin: auto;
+        transform: rotate(90deg);
+        padding: 15px 25px;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+    
+    header .column span {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .piano-keys {
+        margin-top: 25px;
+    }
+
+    .piano-keys span {
+        bottom: 15px;
+        font-size: 1rem;
+    }
+
+    .piano-keys .white {
+        width: 50px;
+        height: 180px;
+    }
+
+    .piano-keys .black {
+        width: 45px;
+        height: 120px;
+    }
+
+    .short-keys {
+        margin-top: 20px;
+    }
+    
+    .short-keys li {
+        width: 35px;
+        height: 35px;
+    }
+
+    .short-keys span {
+        font-size: 1.5rem;
+    }
+}
